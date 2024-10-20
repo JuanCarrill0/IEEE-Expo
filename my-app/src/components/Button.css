@@ -1,0 +1,31 @@
+/* Estilos para el botón de la tarjeta */
+.button-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button-card:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-icon {
+    color: #d35400; /* Color del ícono */
+    margin-right: 10px;
+  }
+  
+  .button-card:focus {
+    outline: none;
+  }
